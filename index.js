@@ -7,6 +7,8 @@ const __dirname = path.dirname(__filename);
 const quotesFilePath = path.resolve(__dirname, "quotes.json");
 const readmePath = path.resolve(__dirname, "README.md");
 const quoteSvgPath = path.resolve(__dirname, "quote.svg");
+const quoteFontFamily = "KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif";
+const quoteTextColor = "#16226a";
 
 const DefaultQuote = {
 	quote: "\u201c醉里挑灯看剑，醒时一笑看尽红尘。\u201d",
@@ -62,11 +64,10 @@ const createQuoteSvg = ({ quote, author }) => {
 	return `<svg width="900" height="${height}" viewBox="0 0 900 ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
 	<desc id="desc">${escapeXml(`${quote} - ${author}`)}</desc>
-	<rect x="0.5" y="0.5" width="899" height="${height - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>
-	<text text-anchor="middle" fill="#f0f6fc" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="24" font-weight="700" font-style="italic">
+	<text text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="24" font-weight="700" font-style="italic">
 ${quoteLines}
 	</text>
-	<text x="50%" y="${authorY}" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">- ${escapeXml(author)}</text>
+	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700" font-style="italic">- ${escapeXml(author)} -</text>
 </svg>
 `;
 };
