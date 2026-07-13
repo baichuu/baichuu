@@ -8,7 +8,7 @@ const quotesFilePath = path.resolve(__dirname, "quotes.json");
 const readmePath = path.resolve(__dirname, "README.md");
 const quoteSvgPath = path.resolve(__dirname, "quote.svg");
 const quoteFontFamily = "KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif";
-const quoteTextColor = "#16226a";
+const quoteTextColor = "#0969da";
 
 const DefaultQuote = {
 	quote: "\u201c醉里挑灯看剑，醒时一笑看尽红尘。\u201d",
