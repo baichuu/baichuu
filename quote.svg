@@ -1,8 +1,8 @@
-<svg width="900" height="150" viewBox="0 0 900 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="900" height="170" viewBox="0 0 900 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">你不勇敢，没人替你坚强。 - 佚名</desc>
-	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="24" font-weight="700" font-style="italic">
-		<tspan x="50%" y="67">你不勇敢，没人替你坚强。</tspan>
+	<desc id="desc">没有碰巧的成功，也没有白费的努力。 - 古谚</desc>
+	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
+		<tspan x="50%" y="73">没有碰巧的成功，也没有白费的努力。</tspan>
 	</text>
-	<text x="50%" y="119" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《佚名》 -</text>
+	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《古谚》 -</text>
 </svg>
