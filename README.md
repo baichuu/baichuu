@@ -2,7 +2,7 @@
 
 <img src="./quote.svg" alt="Quote" width="720" />
 
-<hr width="60%" />
+<hr width="65%" />
 
 <a href="https://www.baichu.dev/"><img src="./portfolio.svg" alt="Portfolio" width="260" /></a>
 <a href="https://baiyuespace.com/"><img src="./space.svg" alt="Space" width="260" /></a>
