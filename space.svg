@@ -1,13 +1,7 @@
 <svg width="260" height="58" viewBox="0 0 260 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="space-title space-desc">
 	<title id="space-title">Space</title>
 	<desc id="space-desc">baiyuespace.com</desc>
-	<defs>
-		<linearGradient id="space-line" x1="16" y1="9" x2="244" y2="49" gradientUnits="userSpaceOnUse">
-			<stop stop-color="#8250df"/>
-			<stop offset="1" stop-color="#d1242f"/>
-		</linearGradient>
-	</defs>
-	<rect x="1" y="1" width="258" height="56" rx="10" fill="transparent" stroke="url(#space-line)" stroke-width="1.6"/>
+	<rect x="1" y="1" width="258" height="56" rx="10" fill="transparent" stroke="#8250df" stroke-width="1.6"/>
 	<g color="#8250df">
 		<path d="M33 20l2.1 6 5.9 2.1-5.9 2.1-2.1 6-2.1-6-5.9-2.1 5.9-2.1L33 20Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
 	<path d="M23 37c6 4.4 16.2 1 21.5-7.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>

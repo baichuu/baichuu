@@ -31,13 +31,7 @@ const linkIcons = {
 const createLinkSvg = ({ id, label, domain, accentColor, icon }) => `<svg width="260" height="58" viewBox="0 0 260 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="${id}-title ${id}-desc">
 	<title id="${id}-title">${escapeXml(label)}</title>
 	<desc id="${id}-desc">${escapeXml(domain)}</desc>
-	<defs>
-		<linearGradient id="${id}-line" x1="16" y1="9" x2="244" y2="49" gradientUnits="userSpaceOnUse">
-			<stop stop-color="${accentColor}"/>
-			<stop offset="1" stop-color="#d1242f"/>
-		</linearGradient>
-	</defs>
-	<rect x="1" y="1" width="258" height="56" rx="10" fill="transparent" stroke="url(#${id}-line)" stroke-width="1.6"/>
+	<rect x="1" y="1" width="258" height="56" rx="10" fill="transparent" stroke="${accentColor}" stroke-width="1.6"/>
 	<g color="${accentColor}">
 		${icon}
 	</g>
