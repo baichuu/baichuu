@@ -49,7 +49,7 @@ const writeLinkSvgs = () => {
 			id: "portfolio",
 			label: "Portfolio",
 			domain: "baichu.dev",
-			accentColor: "#d1242f",
+			accentColor: "#0969da",
 			icon: linkIcons.portfolio,
 		}),
 		"utf8",
