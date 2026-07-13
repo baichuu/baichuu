@@ -1,8 +1,8 @@
 <svg width="900" height="150" viewBox="0 0 900 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“千里之堤毁于蚁穴。” - 《左传》</desc>
-	<text text-anchor="middle" fill="#0969da" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="24" font-weight="700" font-style="italic">
-		<tspan x="50%" y="67">“千里之堤毁于蚁穴。”</tspan>
+	<desc id="desc">“知足者常乐。” - 老子</desc>
+	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="24" font-weight="700" font-style="italic">
+		<tspan x="50%" y="67">“知足者常乐。”</tspan>
 	</text>
-	<text x="50%" y="119" text-anchor="middle" fill="#0969da" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《左传》 -</text>
+	<text x="50%" y="119" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 老子 -</text>
 </svg>
