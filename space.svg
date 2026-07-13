@@ -1,0 +1,17 @@
+<svg width="360" height="76" viewBox="0 0 360 76" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="space-title space-desc">
+	<title id="space-title">Space</title>
+	<desc id="space-desc">baiyuespace.com</desc>
+	<defs>
+		<linearGradient id="space-line" x1="22" y1="12" x2="338" y2="64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#8250df"/>
+			<stop offset="1" stop-color="#d1242f"/>
+		</linearGradient>
+	</defs>
+	<rect x="1" y="1" width="358" height="74" rx="14" fill="transparent" stroke="url(#space-line)" stroke-width="2"/>
+	<circle cx="44" cy="38" r="20" fill="#8250df" fill-opacity="0.12"/>
+	<text x="44" y="46" text-anchor="middle" fill="#8250df" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700">S</text>
+	<text x="82" y="34" fill="#8250df" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Space</text>
+	<text x="82" y="55" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14">baiyuespace.com</text>
+	<path d="M314 31h12v12" stroke="#8250df" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+	<path d="M326 31l-18 18" stroke="#8250df" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

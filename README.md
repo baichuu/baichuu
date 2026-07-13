@@ -4,12 +4,18 @@
 
 <table align="center">
 	<tr>
-		<td align="right"><b>Portfolio</b></td>
-		<td><a href="https://www.baichu.dev/">baichu.dev</a></td>
+		<td>
+			<a href="https://www.baichu.dev/">
+				<img src="./portfolio.svg" alt="Portfolio" width="360" />
+			</a>
+		</td>
 	</tr>
 	<tr>
-		<td align="right"><b>Space</b></td>
-		<td><a href="https://baiyuespace.com/">baiyuespace.com</a></td>
+		<td>
+			<a href="https://baiyuespace.com/">
+				<img src="./space.svg" alt="Space" width="360" />
+			</a>
+		</td>
 	</tr>
 </table>
 
