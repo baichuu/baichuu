@@ -8,8 +8,11 @@
 		</linearGradient>
 	</defs>
 	<rect x="1" y="1" width="358" height="74" rx="14" fill="transparent" stroke="url(#space-line)" stroke-width="2"/>
-	<circle cx="44" cy="38" r="20" fill="#8250df" fill-opacity="0.12"/>
-	<text x="44" y="46" text-anchor="middle" fill="#8250df" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700">S</text>
+	<g color="#8250df">
+		<path d="M44 27l2.6 7.4L54 37l-7.4 2.6L44 47l-2.6-7.4L34 37l7.4-2.6L44 27Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+	<path d="M31 48c7.5 5.5 20.3 1.2 27-9.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+	<path d="M57 29c-7.5-5.5-20.3-1.2-27 9.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+	</g>
 	<text x="82" y="34" fill="#8250df" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Space</text>
 	<text x="82" y="55" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14">baiyuespace.com</text>
 	<path d="M314 31h12v12" stroke="#8250df" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>

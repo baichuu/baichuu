@@ -1,8 +1,8 @@
 <svg width="900" height="150" viewBox="0 0 900 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“生死有命，富贵在天。” - 古人</desc>
+	<desc id="desc">你不勇敢，没人替你坚强。 - 佚名</desc>
 	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="24" font-weight="700" font-style="italic">
-		<tspan x="50%" y="67">“生死有命，富贵在天。”</tspan>
+		<tspan x="50%" y="67">你不勇敢，没人替你坚强。</tspan>
 	</text>
-	<text x="50%" y="119" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《古人》 -</text>
+	<text x="50%" y="119" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《佚名》 -</text>
 </svg>
