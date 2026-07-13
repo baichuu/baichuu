@@ -67,7 +67,7 @@ const createQuoteSvg = ({ quote, author }) => {
 	<text text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="24" font-weight="700" font-style="italic">
 ${quoteLines}
 	</text>
-	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700" font-style="italic">- ${escapeXml(author)} -</text>
+	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700" font-style="italic">- 《${escapeXml(author)}》 -</text>
 </svg>
 `;
 };
