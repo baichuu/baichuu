@@ -63,7 +63,7 @@ const createQuoteSvg = ({ quote, author }) => {
 		)
 		.join("\n");
 
-	return `<svg width="900" height="${height}" viewBox="0 0 900 ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+	return `<svg width="720" height="${height}" viewBox="0 0 720 ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
 	<desc id="desc">${escapeXml(`${quote} - ${author}`)}</desc>
 	<text text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="${quoteFontSize}" font-weight="700" font-style="italic">
@@ -85,9 +85,9 @@ const writeQuoteSvg = (quoteData) => {
 const updateReadme = () => {
 	try {
 		let readmeContent = readFileSync(readmePath, "utf8");
-		const quoteBlock = '<img src="./quote.svg" alt="Quote" width="900" />';
+		const quoteBlock = '<img src="./quote.svg" alt="Quote" width="720" />';
 
-		const quoteRegex = /(?:<p><i><b>.*?<\/b><\/i>\s*-\s*.*?<\/p>|<img src="\.\/quote\.svg" alt="Quote" width="900" \/?>)/i;
+		const quoteRegex = /(?:<p><i><b>.*?<\/b><\/i>\s*-\s*.*?<\/p>|<img src="\.\/quote\.svg" alt="Quote" width="(?:900|720)" \/?>)/i;
 		const match = readmeContent.match(quoteRegex);
 		if (!match) return;
 

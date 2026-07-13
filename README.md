@@ -1,6 +1,6 @@
 <div align=center>
 
-<img src="./quote.svg" alt="Quote" width="900" />
+<img src="./quote.svg" alt="Quote" width="720" />
 
 <hr width="60%" />
 
