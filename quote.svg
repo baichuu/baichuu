@@ -1,8 +1,8 @@
 <svg width="720" height="170" viewBox="0 0 720 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“千磨万击还坚劲，任尔东西南北风。” - 郑板桥</desc>
+	<desc id="desc">“天命自有时，事在人为。” - 曹操</desc>
 	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
-		<tspan x="50%" y="73">“千磨万击还坚劲，任尔东西南北风。”</tspan>
+		<tspan x="50%" y="73">“天命自有时，事在人为。”</tspan>
 	</text>
-	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《郑板桥》 -</text>
+	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《曹操》 -</text>
 </svg>
