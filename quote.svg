@@ -1,8 +1,8 @@
 <svg width="720" height="170" viewBox="0 0 720 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“举头望明月，低头思故乡。” - 李白</desc>
+	<desc id="desc">“采得百花成蜜后，为谁辛苦为谁甜。” - 唐代·罗隐</desc>
 	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
-		<tspan x="50%" y="73">“举头望明月，低头思故乡。”</tspan>
+		<tspan x="50%" y="73">“采得百花成蜜后，为谁辛苦为谁甜。”</tspan>
 	</text>
-	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《李白》 -</text>
+	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《唐代·罗隐》 -</text>
 </svg>
