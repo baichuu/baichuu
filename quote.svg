@@ -1,8 +1,8 @@
 <svg width="720" height="170" viewBox="0 0 720 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“在天愿作比翼鸟，在地愿为连理枝。” - 杜牧</desc>
+	<desc id="desc">“此情可待成追忆，只是当时已惘然。” - 李商隐</desc>
 	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
-		<tspan x="50%" y="73">“在天愿作比翼鸟，在地愿为连理枝。”</tspan>
+		<tspan x="50%" y="73">“此情可待成追忆，只是当时已惘然。”</tspan>
 	</text>
-	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《杜牧》 -</text>
+	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《李商隐》 -</text>
 </svg>
