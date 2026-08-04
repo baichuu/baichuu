@@ -1,8 +1,8 @@
 <svg width="720" height="170" viewBox="0 0 720 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“行走江湖，身上背的不只是刀剑。” - 金庸</desc>
+	<desc id="desc">“失败乃成功之母。” - 陈天华</desc>
 	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
-		<tspan x="50%" y="73">“行走江湖，身上背的不只是刀剑。”</tspan>
+		<tspan x="50%" y="73">“失败乃成功之母。”</tspan>
 	</text>
-	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《金庸》 -</text>
+	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《陈天华》 -</text>
 </svg>
