@@ -1,4 +1,4 @@
-name: Change qoute every day and push to GitHub
+name: Refresh profile quote every 8 hours
 on:
   schedule:
     - cron: "0 */8 * * *"
@@ -15,13 +15,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Install deps
-        run: |
-          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
-            npm ci
-          else
-            npm install
-          fi
       - name: Run index.js
         run: npm start
       - name: Commit & push quote changes
@@ -29,7 +22,7 @@ jobs:
           git config user.name "baiyuechuz"
           git config user.email "baiyuechuu@gmail.com"
 
-          git add -A
+          git add quote.svg
 
           EMOJIS=("🌟" "🚀" "✨" "🎉" "💫" "🌈" "🔥" "⚡" "💎" "🌺" "🦋" "🍀" "🎨" "🎭" "🎪" "🎯" "🎲" "🎸" "🎵" "🎶" "📝" "📚" "💭" "💡" "🔮" "🌙" "☀️" "🌸" "🍃" "🌊")
           RANDOM_EMOJI=${EMOJIS[$RANDOM % ${#EMOJIS[@]}]}

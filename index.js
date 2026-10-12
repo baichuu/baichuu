@@ -1,35 +1,29 @@
 import { readFileSync, writeFileSync } from "node:fs";
-import path from "node:path";
-
-const __filename = new URL(import.meta.url).pathname;
-const __dirname = path.dirname(__filename);
-
-const quotesFilePath = path.resolve(__dirname, "quotes.json");
-const readmePath = path.resolve(__dirname, "README.md");
-const quoteSvgPath = path.resolve(__dirname, "quote.svg");
-const websiteLabels = readFileSync(path.resolve(__dirname, "website-labels.svg"), "utf8").trim();
-const helloSvg = readFileSync(path.resolve(__dirname, "hello.svg"), "utf8").trim();
+const readSource = (name) => readFileSync(new URL(name, import.meta.url), "utf8");
+const quoteSvgPath = new URL("quote.svg", import.meta.url);
+const websiteLabels = readSource("assets/website-labels.svg").trim();
+const baichuSvg = readSource("assets/baichu.svg").trim();
 const quoteFontFamily = "KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif";
 const quoteTextColor = "#ffffff";
 const quoteFontSize = 30;
 const quoteLineHeight = 40;
 
-const DefaultQuote = {
+const defaultQuote = {
 	quote: "\u201c醉里挑灯看剑，醒时一笑看尽红尘。\u201d",
 	author: "Baiyuechu111",
 };
 
 const getQuote = () => {
 	try {
-		const data = readFileSync(quotesFilePath, "utf8");
+		const data = readSource("quotes.json");
 		const quotes = JSON.parse(data);
 		if (quotes.length > 0) {
-			return quotes[Math.floor(Math.random() * quotes.length)] || DefaultQuote;
+			return quotes[Math.floor(Math.random() * quotes.length)] || defaultQuote;
 		}
-		return DefaultQuote;
+		return defaultQuote;
 	} catch (err) {
 		console.error("Error reading quotes file:", err);
-		return DefaultQuote;
+		return defaultQuote;
 	}
 };
 
@@ -49,7 +43,7 @@ const wrapText = (text, maxLineLength = 24) => {
 		lines.push(cleanText.slice(index, index + maxLineLength));
 	}
 
-	return lines.length ? lines : [DefaultQuote.quote];
+	return lines.length ? lines : [defaultQuote.quote];
 };
 
 const createQuoteSvg = ({ quote, author }) => {
@@ -74,10 +68,10 @@ ${quoteLines}
 	</text>
 	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700">- 《${escapeXml(author)}》 -</text>
 	<g transform="translate(8 ${height - 41})">
-		${helloSvg}
+		${baichuSvg}
 	</g>
-	<!-- Lucide globe and orbit icons; see lucide-LICENSE. -->
-	<g transform="translate(494 ${height - 30})" fill="#ffffff" font-family="'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">
+	<!-- Lucide globe and orbit icons; see assets/lucide-LICENSE.txt. -->
+	<g transform="translate(494 ${height - 30})" fill="#ffffff">
 		<g transform="scale(0.666667)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 			<circle cx="12" cy="12" r="10" />
 			<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
@@ -96,36 +90,5 @@ ${quoteLines}
 `;
 };
 
-const writeQuoteSvg = (quoteData) => {
-	try {
-		writeFileSync(quoteSvgPath, createQuoteSvg(quoteData), "utf8");
-	} catch (err) {
-		console.error("Error writing quote SVG:", err);
-	}
-};
-
-const updateReadme = () => {
-	try {
-		let readmeContent = readFileSync(readmePath, "utf8");
-		const quoteBlock = '<img src="./quote.svg" alt="Quote" width="100%" />';
-
-		const quoteRegex = /(?:<p><i><b>.*?<\/b><\/i>\s*-\s*.*?<\/p>|<img src="\.\/quote\.svg" alt="Quote" width="(?:900|720|100%)" \/?>)/i;
-		const match = readmeContent.match(quoteRegex);
-		if (!match) return;
-
-		const updatedContent = readmeContent.replace(quoteRegex, quoteBlock);
-
-		writeFileSync(readmePath, updatedContent, "utf8");
-	} catch (err) {
-		console.error("Error updating README:", err);
-	}
-};
-
-(async () => {
-	const { quote, author } = getQuote();
-
-	if (quote && author) {
-		writeQuoteSvg({ quote, author });
-		updateReadme();
-	}
-})();
+const quoteData = getQuote();
+writeFileSync(quoteSvgPath, createQuoteSvg(quoteData), "utf8");

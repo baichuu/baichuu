@@ -3,7 +3,6 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"start": "node index.js",
-		"links": "node links.js"
+		"start": "node index.js"
 	}
 }
