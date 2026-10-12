@@ -8,6 +8,7 @@ const quotesFilePath = path.resolve(__dirname, "quotes.json");
 const readmePath = path.resolve(__dirname, "README.md");
 const quoteSvgPath = path.resolve(__dirname, "quote.svg");
 const websiteLabels = readFileSync(path.resolve(__dirname, "website-labels.svg"), "utf8").trim();
+const helloSvg = readFileSync(path.resolve(__dirname, "hello.svg"), "utf8").trim();
 const quoteFontFamily = "KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif";
 const quoteTextColor = "#ffffff";
 const quoteFontSize = 30;
@@ -72,8 +73,11 @@ const createQuoteSvg = ({ quote, author }) => {
 ${quoteLines}
 	</text>
 	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700">- 《${escapeXml(author)}》 -</text>
+	<g transform="translate(8 ${height - 41})">
+		${helloSvg}
+	</g>
 	<!-- Lucide globe and orbit icons; see lucide-LICENSE. -->
-	<g transform="translate(484 ${height - 30})" fill="#ffffff" font-family="'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">
+	<g transform="translate(494 ${height - 30})" fill="#ffffff" font-family="'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">
 		<g transform="scale(0.666667)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 			<circle cx="12" cy="12" r="10" />
 			<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
