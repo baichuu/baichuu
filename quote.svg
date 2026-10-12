@@ -1,8 +1,9 @@
-<svg width="720" height="170" viewBox="0 0 720 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="720" height="280" viewBox="0 0 720 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“人无远虑，必有近忧。” - 孔子</desc>
-	<text text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
-		<tspan x="50%" y="73">“人无远虑，必有近忧。”</tspan>
+	<desc id="desc">生活就像一杯水，冷暖自知。 - 佚名</desc>
+	<rect width="720" height="280" rx="15" fill="#000000" />
+	<text text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
+		<tspan x="50%" y="122">生活就像一杯水，冷暖自知。</tspan>
 	</text>
-	<text x="50%" y="133" text-anchor="middle" fill="#d1242f" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《孔子》 -</text>
+	<text x="50%" y="166" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《佚名》 -</text>
 </svg>

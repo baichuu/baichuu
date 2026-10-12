@@ -8,7 +8,7 @@ const quotesFilePath = path.resolve(__dirname, "quotes.json");
 const readmePath = path.resolve(__dirname, "README.md");
 const quoteSvgPath = path.resolve(__dirname, "quote.svg");
 const quoteFontFamily = "KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif";
-const quoteTextColor = "#d1242f";
+const quoteTextColor = "#ffffff";
 const quoteFontSize = 30;
 const quoteLineHeight = 40;
 
@@ -52,9 +52,9 @@ const wrapText = (text, maxLineLength = 24) => {
 
 const createQuoteSvg = ({ quote, author }) => {
 	const lines = wrapText(quote);
-	const height = Math.max(170, 108 + lines.length * quoteLineHeight);
-	const quoteStartY = Math.round(height / 2 - (lines.length - 1) * (quoteLineHeight / 2) - 12);
-	const authorY = quoteStartY + lines.length * quoteLineHeight + 20;
+	const height = Math.max(280, 160 + lines.length * quoteLineHeight);
+	const quoteStartY = Math.round(height / 2 - (lines.length - 1) * (quoteLineHeight / 2) - 18);
+	const authorY = quoteStartY + (lines.length - 1) * quoteLineHeight + 44;
 
 	const quoteLines = lines
 		.map(
@@ -66,6 +66,7 @@ const createQuoteSvg = ({ quote, author }) => {
 	return `<svg width="720" height="${height}" viewBox="0 0 720 ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
 	<desc id="desc">${escapeXml(`${quote} - ${author}`)}</desc>
+	<rect width="720" height="${height}" rx="15" fill="#000000" />
 	<text text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="${quoteFontSize}" font-weight="700" font-style="italic">
 ${quoteLines}
 	</text>
