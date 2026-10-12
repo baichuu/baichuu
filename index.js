@@ -67,10 +67,10 @@ const createQuoteSvg = ({ quote, author }) => {
 	<title id="title">Random quote</title>
 	<desc id="desc">${escapeXml(`${quote} - ${author}`)}</desc>
 	<rect width="720" height="${height}" rx="15" fill="#000000" />
-	<text text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="${quoteFontSize}" font-weight="700" font-style="italic">
+	<text text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="${quoteFontSize}" font-weight="700">
 ${quoteLines}
 	</text>
-	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700" font-style="italic">- 《${escapeXml(author)}》 -</text>
+	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700">- 《${escapeXml(author)}》 -</text>
 </svg>
 `;
 };

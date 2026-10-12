@@ -2,8 +2,8 @@
 	<title id="title">Random quote</title>
 	<desc id="desc">生活就像一杯水，冷暖自知。 - 佚名</desc>
 	<rect width="720" height="280" rx="15" fill="#000000" />
-	<text text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700" font-style="italic">
+	<text text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700">
 		<tspan x="50%" y="122">生活就像一杯水，冷暖自知。</tspan>
 	</text>
-	<text x="50%" y="166" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700" font-style="italic">- 《佚名》 -</text>
+	<text x="50%" y="166" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700">- 《佚名》 -</text>
 </svg>
