@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 const quotesFilePath = path.resolve(__dirname, "quotes.json");
 const readmePath = path.resolve(__dirname, "README.md");
 const quoteSvgPath = path.resolve(__dirname, "quote.svg");
+const websiteLabels = readFileSync(path.resolve(__dirname, "website-labels.svg"), "utf8").trim();
 const quoteFontFamily = "KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif";
 const quoteTextColor = "#ffffff";
 const quoteFontSize = 30;
@@ -71,6 +72,22 @@ const createQuoteSvg = ({ quote, author }) => {
 ${quoteLines}
 	</text>
 	<text x="50%" y="${authorY}" text-anchor="middle" fill="${quoteTextColor}" font-family="${quoteFontFamily}" font-size="18" font-weight="700">- 《${escapeXml(author)}》 -</text>
+	<!-- Lucide globe and orbit icons; see lucide-LICENSE. -->
+	<g transform="translate(484 ${height - 30})" fill="#ffffff" font-family="'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">
+		<g transform="scale(0.666667)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="12" cy="12" r="10" />
+			<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+			<path d="M2 12h20" />
+		</g>
+		${websiteLabels}
+		<g transform="translate(108 0) scale(0.666667)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M20.341 6.484A10 10 0 0 1 10.266 21.85" />
+			<path d="M3.659 17.516A10 10 0 0 1 13.74 2.152" />
+			<circle cx="12" cy="12" r="3" />
+			<circle cx="19" cy="5" r="2" />
+			<circle cx="5" cy="19" r="2" />
+		</g>
+	</g>
 </svg>
 `;
 };
