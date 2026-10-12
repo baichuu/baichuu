@@ -1,5 +1,5 @@
 <div align=center>
 
-<img src="./quote.svg" alt="Quote" width="720" />
+<img src="./quote.svg" alt="Quote" width="100%" />
 
 </div>

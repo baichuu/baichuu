@@ -86,9 +86,9 @@ const writeQuoteSvg = (quoteData) => {
 const updateReadme = () => {
 	try {
 		let readmeContent = readFileSync(readmePath, "utf8");
-		const quoteBlock = '<img src="./quote.svg" alt="Quote" width="720" />';
+		const quoteBlock = '<img src="./quote.svg" alt="Quote" width="100%" />';
 
-		const quoteRegex = /(?:<p><i><b>.*?<\/b><\/i>\s*-\s*.*?<\/p>|<img src="\.\/quote\.svg" alt="Quote" width="(?:900|720)" \/?>)/i;
+		const quoteRegex = /(?:<p><i><b>.*?<\/b><\/i>\s*-\s*.*?<\/p>|<img src="\.\/quote\.svg" alt="Quote" width="(?:900|720|100%)" \/?>)/i;
 		const match = readmeContent.match(quoteRegex);
 		if (!match) return;
 
