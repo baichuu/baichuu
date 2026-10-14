@@ -1,11 +1,11 @@
 <svg width="720" height="280" viewBox="0 0 720 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">“千里之堤毁于蚁穴。” - 古人</desc>
+	<desc id="desc">“少壮不努力，老大徒伤悲。” - 汉乐府</desc>
 	<rect width="720" height="280" rx="15" fill="#000000" />
 	<text text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700">
-		<tspan x="50%" y="122">“千里之堤毁于蚁穴。”</tspan>
+		<tspan x="50%" y="122">“少壮不努力，老大徒伤悲。”</tspan>
 	</text>
-	<text x="50%" y="166" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700">- 《古人》 -</text>
+	<text x="50%" y="166" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700">- 《汉乐府》 -</text>
 	<g transform="translate(8 239)">
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 100 40" role="img" aria-label="baichu">
 <!-- Stroke ribbons adapted from baiyuechu.dev About section. -->
