@@ -1,12 +1,12 @@
 <svg width="720" height="280" viewBox="0 0 720 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 	<title id="title">Random quote</title>
-	<desc id="desc">你若想得到这世界最好的东西，先让世界看到最好的你。 - 佚名</desc>
+	<desc id="desc">你若不想做，会找到一个借口；你若想做，会找到一个方法。 - 古谚</desc>
 	<rect width="720" height="280" rx="15" fill="#000000" />
 	<text text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="30" font-weight="700">
-		<tspan x="50%" y="102">你若想得到这世界最好的东西，先让世界看到最好的你</tspan>
-		<tspan x="50%" y="142">。</tspan>
+		<tspan x="50%" y="102">你若不想做，会找到一个借口；你若想做，会找到一个</tspan>
+		<tspan x="50%" y="142">方法。</tspan>
 	</text>
-	<text x="50%" y="186" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700">- 《佚名》 -</text>
+	<text x="50%" y="186" text-anchor="middle" fill="#ffffff" font-family="KaiTi, STKaiti, 'Noto Serif CJK SC', 'Noto Serif SC', serif" font-size="18" font-weight="700">- 《古谚》 -</text>
 	<g transform="translate(8 239)">
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 100 40" role="img" aria-label="baichu">
 <!-- Stroke ribbons adapted from baiyuechu.dev About section. -->
